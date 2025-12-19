@@ -3,7 +3,23 @@ entries:
   aclaimant-nginx:
   - apiVersion: v2
     appVersion: 1.0.17
-    created: "2025-12-18T14:42:34.306357-06:00"
+    created: "2025-12-19T08:35:25.484352-06:00"
+    description: NGINX reverse proxy with SSL termination for aclaimant microservices
+    digest: 57c0edb03185e35554a8117a80e3638d910c99eb129772a186bcb05a19409349
+    keywords:
+    - nginx
+    - reverse-proxy
+    - ssl
+    maintainers:
+    - name: Aclaimant Engineering
+    name: aclaimant-nginx
+    type: application
+    urls:
+    - https://aclaimant.github.io/helm-charts/aclaimant-nginx-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.17
+    created: "2025-12-19T08:35:25.484075-06:00"
     description: NGINX reverse proxy with SSL termination for aclaimant microservices
     digest: d19d1550b128cff7e3d069b1d1a4f8c53de1c6dc7f199761df66a6a5177db0c4
     keywords:
@@ -17,4 +33,4 @@ entries:
     urls:
     - https://aclaimant.github.io/helm-charts/aclaimant-nginx-1.0.0.tgz
     version: 1.0.0
-generated: "2025-12-18T14:42:34.305759-06:00"
+generated: "2025-12-19T08:35:25.483491-06:00"
